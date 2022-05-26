@@ -1,0 +1,5 @@
+c = input('Digite o nome da cidade: ').split()
+s = str('santo' in c[0].lower())
+s = s.replace('True','Começa')
+s = s.replace('False','Não Começa')
+print('esta cidade {} com Santos'.format(s))

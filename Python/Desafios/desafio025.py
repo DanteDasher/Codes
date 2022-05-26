@@ -1,0 +1,5 @@
+n = input('Digite Seu nome: ')
+s = str('silva' in n.lower())
+s = s.replace('True','Tem')
+s = s.replace('False','Não Tem')
+print('Seu nome {} Silva'.format(s))

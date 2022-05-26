@@ -1,0 +1,6 @@
+tt = ('Atlético-MG','Palmeiras','Flamengo','Fortaleza','Bragantino','Corinthians','International','Fluminense','Athletico-PR','América-MG','Cuiabá','Ceará SC','Santos','São Paulo','Atlético-GO','Bahia','Juventude','Sport Recife','Grêmio','Chapecoense')
+print(f'Tabela Prasileirão: {tt}')
+print(f'Os 5 Primeiros são: {tt[:5]}')
+print(f'Os 4 Ultimos são: {tt[-4:]}')
+print(f'Tabela em ordem alfabetica: {sorted(tt)}')
+print('O Chapecoense esta em {}º'.format(tt.index('Chapecoense') + 1))
